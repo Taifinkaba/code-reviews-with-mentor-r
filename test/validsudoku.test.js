@@ -1,4 +1,4 @@
-const { isValidSudoku } = require('./validsudoku');
+const { isValidSudoku } = require('./leetcode/validsudoku');
 
 describe('isValidSudoku', () => {
   test('valid board should return true', () => {
