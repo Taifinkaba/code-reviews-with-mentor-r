@@ -30,6 +30,7 @@ function characterReplacement(s, k) {
     return maxLen;
 }
 
+module.exports = { characterReplacement };
 // Test cases
 console.log(characterReplacement("XYYX", 2));     // 4
 console.log(characterReplacement("AAABABB", 1));  // 5
